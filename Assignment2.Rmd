@@ -1,0 +1,40 @@
+---
+title: "Assignment 1-2"
+author: "YOUR NAME HERE"
+date: "February 5, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+##### **Part 1: Data visualization**
+Improve or refine your data visualization to address question Q1.1: "How does the risk of disease compare for smokers and otherwise similar non-smokers?"
+
+As before, you'll need to start by loading in the data set -- you can copy and paste the path you used in your assignment last week.
+```{r}
+nmes.data<-read.csv("~/Courses/PHBiostats/GoogleDrive/2017_280.347/Module1/nmesUNPROC.csv", stringsAsFactors=FALSE)
+```
+
+To improve the appearance of your display, you may want to do some of the things we talked about in class, like recoding variables as factors to give them more intuitive labels, creating summaries or combining them into one table using `filter` or `group_by` or `summarise`. To improve its ability to address the question, you may want to do more to explore subsets of the data to better compare like with like, and to focus on what variables in the data set are directly related to risk of disease.
+
+
+```{r}
+
+```
+
+
+##### **Part 2: Logistic regression modeling**
+
+As discussed in class, fit a logistic regression model to address question Q1.1 and interpret the results. Remember to use the function `glm` as shown in the slides from today's class.
+
+```{r}
+
+```
+
+##### **Part 3: Propensity score calculation**
+
+As discussed in class, use logistic regression to estimate propensity scores for the individuals in the data set.
+
+```{r}
+
+```
